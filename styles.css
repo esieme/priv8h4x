@@ -1,0 +1,55 @@
+/* Footer Social Links - Correção */
+.footer-social {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-social .social-link {
+    width: 45px;
+    height: 45px;
+    background: var(--bg-card);
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-cyan);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-social .social-link:hover {
+    background: var(--primary-cyan);
+    color: var(--bg-dark);
+    box-shadow: var(--glow-cyan);
+    transform: translateY(-3px) rotate(5deg);
+}
+
+/* Botões como links */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-primary, .btn-secondary {
+    cursor: pointer;
+}
+
+.btn-small {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Footer logo */
+.footer-logo .logo-text {
+    font-family: var(--font-primary);
+    font-size: 1.3rem;
+    font-weight: 700;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
